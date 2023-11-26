@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/JS/validate.js"></script>
+        <link rel="stylesheet" href="/CSS/divstyle.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <title>JS Operators</title>
+    </head>
+    <body>
+        <div class="headerdiv">
+            <div><p class="headertext">Abhijeet Srivastava</p></div>
+        </div>
+        <div class="navdiv">
+            <div class="navbutton"><div id="home" class="nav-a"><a id="anchor"
+                         href="HomePage.html">Home</a></div>
+                <div class="nav-a"><a id="anchor"
+                        href="#">About Us</a></div>
+                        <div class="nav-a"><a id="anchor"
+                            href="operations.html">JS Operators</a></div>
+                <div class="nav-a"><a id="anchor" target="_blank"
+                        href="loginregistraion.html">Login/Registration</a></div>
+                <div class="nav-a"><a id="anchor"
+                    href='javascript:;' onClick= "contactus()">Contact</a></div>
+                <div class="nav-a"><a id="anchor"
+                        href='/HTML/Quiz/quitz.html' >Quiz</a></div>
+                <div class="nav-a"><a id="anchor" target="_blank"
+                        href="http://www.instagram.com/m0b_hunter">Instagram</a></div>
+            </div>
+        </div>
+        <div class="operatorsbodydiv">
+            <div class= "operatorsdiv">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter Full Name</label>
+                    <input type="text" class="form-control"
+                        id="fullnameval" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter Your Email</label>
+                    <input type="email" class="form-control"
+                        id="emailval" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Feedback</label>
+                    <textarea name="" oninput="feedback()" class="form-control" id="feedval" cols="40" rows="8"></textarea>
+                    <span id= "counter">100</span>
+                    <span id= "warning"></span>
+                </div>
+                <div class="mb-3">
+                <button type="button" onclick= "" class="btn btn-primary">Submit Feedback</button>
+                <button type="button" onclick= "reset()" class="btn btn-primary">Reset</button>
+            </div>
+        </div>
+
+
+        <div class="footer" id= "footer">
+            <div class="footerdiv" id= "contactus"><ul>
+                    <li><center><div class= "footerbutton"><a href="http://www.instagram.com/m0b_hunter" target="_blank">Instagram</a></div></center></li>
+                    <li><center><div class= "footerbutton"><a href="https://www.youtube.com/@yt_abhij33t03?si=HFMmu6tT220HzwWS" target="_blank">YouTube</a></div></center></li>
+                    <li><center><div class= "footerbutton"><a href="https://www.linkedin.com/in/abhijeet-srivastava-61890321a/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></center></li>
+                    <li><center><div class= "footerbutton"><a href="https://github.com/Abhij33t0" target="_blank" rel="noopener noreferrer">Github</a></div></center></li>
+                </ul></div>
+            <div class="footerdiv"><ul>
+                    <li><center><div class= "footerbutton">Hello</div></center></li>
+                    <li><center><div class= "footerbutton">How</div></center></li>
+                    <li><center><div class= "footerbutton">Are</div></center></li>
+                    <li><center><div class= "footerbutton">You</div></center></li>
+                </ul></div>
+            <div class="footerdiv"><ul>
+                    <li><center><div class= "footerbutton">Hello</div></center></li>
+                    <li><center><div class= "footerbutton">How</div></center></li>
+                    <li><center><div class= "footerbutton">Are</div></center></li>
+                </ul></div>
+        </div>
+    </body>
+</html>

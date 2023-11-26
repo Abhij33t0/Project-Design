@@ -1,0 +1,146 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgba(195, 187, 191, 0.77);
+}
+.headerdiv{
+    height: 150px;
+    width: auto;
+    background-image: url('/Assets/chidiya.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.headertext{
+    color: aliceblue;
+    margin-top: 2px;
+    padding-top: 30px;
+    font-size: 70px;
+    text-decoration: aliceblue;
+   text-decoration-line: overline;
+}
+
+.navdiv{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: max-content;
+    width: auto;
+    background-color: rgb(161, 3, 27);
+    background-size: 100% 100%;
+    border: 2px;
+    border-color: rgb(70, 175, 175);
+    border-style: solid;
+}
+.navbutton{
+    font-size: 15px;
+    text-align: start;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.nav-a{
+    float: left;
+    margin-left: 5px;
+    margin: 3px;
+    padding: 3px;
+}
+.navdiv ul, .navdiv a{
+    background-color:  rgb(161, 3, 27);
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+}
+.navdiv a:hover{
+    border-color: rgb(160, 6, 6);
+    color: rgb(180, 54, 8);
+    background-color: gainsboro;
+}
+.footer{
+    margin: 2px;
+    height: fit-content;
+    width: auto;
+    background-image: url('/Assets/chidiya.jpg');
+    background-size: 100% 100%;
+    display: flex;
+}
+.footerdiv{
+    margin: 2px;
+    width: 33%;
+    height: fit-content;
+    text-align: center;
+}
+.footer a, li{
+    margin: 8px;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.homebodydiv{
+    background-image: url(/Assets/fool.jpg);
+    background-size:contain;
+    height: 1000px;
+    width: 2000px;
+}
+.homebodydiv{
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.operatorsbodydiv{
+    background-image: url(/Assets/fool.jpg);
+    background-size:contain;
+    height: 1000px;
+    width: 2000px;
+}
+.operatorsbodydiv{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.formbodydiv{
+    background-image: url(/Assets/camera.jpg);
+    background-size:contain;
+    height: 1000px;
+    width: 2000px;
+}
+.formbodydiv{
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.footerbutton{
+    width: fit-content;
+    border: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 2px;
+}
+.footerbutton:hover{
+    border-style: hidden;
+}
+
+.formdiv{
+    color: white;
+    margin: 11%;
+    width: 50%;
+    height: auto;
+}
+.operatorsdiv{
+    color: white;
+    margin: 10%;
+    width: fit-content;
+    height: fit-content;
+}

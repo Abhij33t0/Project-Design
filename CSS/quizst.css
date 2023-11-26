@@ -1,0 +1,23 @@
+.quizdiv{
+    height: auto;
+    width: max-content;
+    display: block;
+}
+.option{
+    text-decoration: none;
+}
+
+.selector{
+    color: brown;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 15px;
+    font-size: 40px;
+    height: auto;
+    background-color: rgb(22, 168, 120);
+    width: auto;
+}
+.selector:hover{
+    background-color: rgb(8, 77, 146);
+    color: rgb(11, 214, 95);
+}
