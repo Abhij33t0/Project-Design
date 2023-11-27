@@ -6,30 +6,26 @@
 .option{
     text-decoration: none;
 }
-
-.selector{
-    color: brown;
-    text-decoration: none;
-    border-radius: 25px;
-    margin: 15px;
-    font-size: 40px;
-    height: auto;
-    background-color: rgb(22, 168, 120);
-    width: auto;
+.choosecourse{
+    display: block;
 }
-.selector:hover{
-    background-color: rgb(8, 77, 146);
-    color: rgb(11, 214, 95);
-}
-.options{
-    width: 200%;
+.selected{
+    padding: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 2px;
+    border: 1px;
+    border-style: solid;
     border-color: rgb(18, 22, 77);
     color: black;
     background-color: cornflowerblue;
+    display: inline-block;
 }
-.options:hover{
+.selected:hover{
     background-color: black;
     color: cornflowerblue;
-
-    background-color: darkseagreen;
+}
+#test1{
+    
 }
