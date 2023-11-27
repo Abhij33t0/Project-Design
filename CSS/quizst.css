@@ -21,3 +21,15 @@
     background-color: rgb(8, 77, 146);
     color: rgb(11, 214, 95);
 }
+.options{
+    width: 200%;
+    border-color: rgb(18, 22, 77);
+    color: black;
+    background-color: cornflowerblue;
+}
+.options:hover{
+    background-color: black;
+    color: cornflowerblue;
+
+    background-color: darkseagreen;
+}
